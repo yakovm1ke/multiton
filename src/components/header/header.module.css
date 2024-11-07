@@ -1,0 +1,7 @@
+.header {
+  padding: var(--mantine-spacing-md) var(--page-side-padding);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--mantine-spacing-md);
+}

@@ -1,0 +1,4 @@
+.footer {
+  padding: var(--mantine-spacing-md) var(--page-side-padding);
+  box-sizing: border-box;
+}

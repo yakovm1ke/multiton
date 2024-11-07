@@ -1,0 +1,14 @@
+.addressItem {
+  display: grid;
+  grid-template-columns: auto repeat(2, 1fr) auto;
+  gap: var(--mantine-spacing-sm) var(--mantine-spacing-xs);
+  align-items: center;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: var(--mantine-spacing-sm);
+}

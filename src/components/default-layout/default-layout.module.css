@@ -1,0 +1,42 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.notifications {
+  position: fixed;
+  bottom: var(--mantine-spacing-lg);
+  right: var(--mantine-spacing-lg);
+}
+
+.content {
+  max-width: var(--page-max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 28px var(--page-side-padding) 80px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.header {
+  z-index: 100;
+  position: sticky;
+  top: 0px;
+  background: var(--mantine-color-body);
+  border-bottom: 1px solid var(--mantine-color-text);
+}
+
+.footer {
+  border-top: 1px solid var(--mantine-color-text);
+  box-sizing: border-box;
+  background: var(--mantine-color-body);
+}
+
+.footerContent,
+.headerContent {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+}
+
+
