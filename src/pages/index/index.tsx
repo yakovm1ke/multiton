@@ -16,7 +16,7 @@ export const IndexPage = () => {
         throw new Error('Addresses can\'t be empty')
       }
 
-      // TODO
+      // TODO remove mock request
       await new Promise((res) => setTimeout(() => res(true), 1000))
 
       notifications.show({
