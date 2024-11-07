@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')!).render(
     >
       <TonConnectUIProvider
         // TODO
-        manifestUrl="http://localhost:3000/tonconnect-manifest.json"
+        manifestUrl="https://yakovm1ke.github.io/multiton/tonconnect-manifest.json"
       >
         <RouterProvider
           router={router}
